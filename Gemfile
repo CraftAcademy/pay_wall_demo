@@ -18,7 +18,7 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'factory_bot_rails'
   gem 'pry-byebug'
-  gem 'cucumber-rails', require: false
+  gem 'cucumber-rails', '~> 1.4', '>= 1.4.5', require: false
   gem 'database_cleaner'
   gem 'coveralls', require: false
 end

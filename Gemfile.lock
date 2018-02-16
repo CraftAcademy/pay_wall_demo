@@ -237,7 +237,7 @@ PLATFORMS
 
 DEPENDENCIES
   coveralls
-  cucumber-rails (~> 1.4, >= 1.4.4)
+  cucumber-rails (~> 1.4, >= 1.4.5)
   database_cleaner
   factory_bot_rails
   listen (>= 3.0.5, < 3.2)
