@@ -19,9 +19,14 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'factory_bot_rails'
   gem 'pry-byebug'
+  gem 'launchy'
   gem 'cucumber-rails', '~> 1.4', '>= 1.4.5', require: false
   gem 'database_cleaner'
   gem 'coveralls', require: false
+  gem 'chromedriver-helper'
+  gem 'selenium-webdriver'
+
+
 end
 
 group :development do
